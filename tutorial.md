@@ -51,15 +51,16 @@ Para crear un repositorio, introduce:
 	$ mkdir mi-primer-repo
 
 (Ten en cuenta dentro de qué carpeta te encuentras)
+
 Para ir a ese repositorio:
 
 	$ cd hello-world
 
-To create a new Git instance for a project:
+Para crear un nuevo repositorio, también puedes utilizar:
 
 	$ git init
 
-That's it! It will just return you to a new line. If you want to be double-sure that it's a Git repository, type git status and if it doesn't return 'fatal: Not a git repository...', you're golden!
+Si quieres comprobar que se ha creado de forma correcta este nuevo repositorio, escribe 'git status' y si la consola no te devuelve 'fatal: Not a git repository...', lo has hecho de forma correcta.
 
 ## Crea un archivo nuevo
 
