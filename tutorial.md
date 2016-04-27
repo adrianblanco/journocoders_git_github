@@ -1,6 +1,6 @@
 ## ¿Qué es Git?
 
-Git es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando éstas tienen un gran número de archivos de código fuente.
+Git es un software de control de versiones diseñado por Linus Torvalds. Su objetivo persigue la eficacia y el control del mantenimiento de versiones de aplicaciones cuando éstas tienen un gran número de archivos de código fuente.
 
 ## ¿Quéeee?
 
@@ -19,7 +19,6 @@ Es un sistema que nos permite alojar nuestro código y controlar los códigos qu
 download Git by itself at: git-scm.com/downloads and follow the installation instructions.
 
 Git no es un aplicación como cualquier otra de tu ordenador. No la verás, pero podrás trabajar con ella a través de la terminal. Sí puedes ver GitHub para Windows o Mac, aunque
-
 
 ## ¿Lo he instalado correctamente?
 
@@ -103,6 +102,7 @@ Puedes guiarte con este tutorial de [Adolfo Antón](https://github.com/flowsta/g
 Si quieres tener una chuleta en papel de los comandos que puedes utilizar puedes imprimir esta hoja de referencia que ha preparado [GitHub] (https://training.github.com/kit/downloads/es_ES/github-git-cheat-sheet.pdf)
 
 
+
 # Si no te sientes cómodo con la Terminal…
 
 Aunque lo ideal es trabajar con la Terminal, si no te sientes cómo con los comanados puedes iniciarte en Github a través de su versión web. Es mucho más limitada y menos potente, pero te ayudará a tener una visión global de qué es Git y Github.
@@ -136,5 +136,10 @@ Ve a [GitHub] (https://github.com/) y crea una cuenta. Ahora explicaremos las op
 
 - Publica tu página en “Publish page”
 
+
+
+### Más info sobre GitHub Pages
+
+Puedes echar un vistazo a [las diferentes posibilades] (https://pages.github.com/) que ofrece GitHub Pages. Gracias a Bootstrap o Jekyll puedes crear páginas web mucho más completas.
 
 
