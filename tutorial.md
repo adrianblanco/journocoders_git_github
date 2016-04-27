@@ -25,7 +25,7 @@ Git no es un aplicación como cualquier otra de tu ordenador. No la verás, pero
 
 Una vez instalado, abre la terminal (Bash, Shell, Prompt). Verifica que lo has instalado correctamente:
 
-$ git --version
+	$ git --version
 
 La terminal te devolverá la versión, algo así:
 git version 1.9.1
