@@ -34,85 +34,107 @@ git version 1.9.1
 ## Configura tu nombre y correo
 
 Ya puedes configurar Git para poder realizar cambios en tus proyectos:
+
 Introduce tu nombre:
-$ git config --global user.name "<Your Name>"
+
+	$ git config --global user.name "Tu nombre"
+
 Ahora, tu email:
-$ git config --global user.email "<youremail@example.com>"
+
+	$ git config --global user.email "<youremail@example.com>"
 
 ## Crea un repositorio
 
 Vas a crear tu primer repositorio. Puedes llamarlo como quieras. En este tutorial lo llamaremos ‘mi-primer-repo’.
 
 Para crear un repositorio, introduce:
+
 	$ mkdir mi-primer-repo
+
 (Ten en cuenta dentro de qué carpeta te encuentras)
 Para ir a ese repositorio:
-$ cd hello-world
+
+	$ cd hello-world
 
 To create a new Git instance for a project:
-$ git init
+
+	$ git init
 
 That's it! It will just return you to a new line. If you want to be double-sure that it's a Git repository, type git status and if it doesn't return 'fatal: Not a git repository...', you're golden!
 
-Crea un archivo nuevo
+## Crea un archivo nuevo
+
 Una vez que has creado tu primer repositorio, ya puedes añadir nuevos archivos.
 Abre un editor de textos (Atom, Sublime…). Escribe unas líneas de texto. Lo que quieras. Guarda el archivo como readme.txt en el repo ‘mi-primer-repo’.
 
-Estado del repo, añade y actualiza los cambios
+## Estado del repo, añade y actualiza los cambios
+
 Si quieres comprobar el estado de tu repositorio para comprobar si ha habido cambios, entra en ‘mi-primer-repo’. (Recuerda utilizar el comando cd para moverte por la consola). Para ver si ha habido cambios, introduce:
-$ git status
+
+	$ git status
+
+## Añade el archivo	
 Cuando ya has hecho la comprobación necesario, puedes añadir el archivo que antes has guardado como ‘readme.txt’. Para ello, escribe en la consola:
-$ git add readme.txt
+
+	$ git add readme.txt
+
+## Mi primer commit	
+
 Por último, añade esos cambios (commit) al historial del repositorio con una breve descripción de los cambios:
 
-$ git commit -m "<descripción>"
+	$ git commit -m "<descripción>"
 
-Comprueba los cambios entre commits
+## Comprueba los cambios entre commits
+
 Si realizas más cambios en el archivo readme.txt y los guardas, puedes comprobar las diferencias entre los diferentes commits mediante el siguiente comando:
-$ git diff
+
+	$ git diff
+
+## Para profundizar:
+
+Hemos cubierto las acciones fundamentales para trabajar con Git desde la consola.
+Los siguientes pasos fundamentales cosnsisnten en aprender a ejecutar las siguientes acciones desde la consola:
+
+- Pull
+- Push
+- Fork 
+
+Puedes guiarte con este tutorial de [Adolfo Antón](https://github.com/flowsta/github/blob/master/README.md) o seguir con estos retos que propone [Jlord] (http://jlord.us/git-it/challenges/remote_control.html).
+Si quieres tener una chuleta en papel de los comandos que puedes utilizar puedes imprimir esta hoja de referencia que ha preparado [GitHub] (https://training.github.com/kit/downloads/es_ES/github-git-cheat-sheet.pdf)
+
+
+# Si no te sientes cómodo con la Terminal…
+
+Aunque lo ideal es trabajar con la Terminal, si no te sientes cómo con los comanados puedes iniciarte en Github a través de su versión web. Es mucho más limitada y menos potente, pero te ayudará a tener una visión global de qué es Git y Github.
+
+Ve a [GitHub] (https://github.com/) y crea una cuenta. Ahora explicaremos las opciones fundamentales que ofrece la web de GitHub.
 
 
 
+# Cómo crear tu propia web con gh-pages
 
 
+- Crea un repositorio
+
+- Dale un nombre
+
+- Puedes añadirle un .ReadMe
+
+- Ve a Settings
+
+- Pincha en 'Launch automatic page generator'
+
+![alt text](settings.png "Logo Title Text 1")
+
+- En Body, puedes cambiar tu descripción
+
+- OJO, no es HTML, tendrás que usar lenguaje [Markdown] (https://daringfireball.net/projects/markdown/syntax). Aquí tienes otra [chuleta] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+
+- Selecciona una plantilla
+
+- Luego podrás modificar tanto .html como .css
+
+- Publica tu página en “Publish page”
 
 
-
-
-
-Si no te sientes cómodo con la Terminal…
-
-Crea un repo con el mismo nombre de tu cuenta
-
-Una  vez hecho eso, crea 
-
-
-
-Cómo crear tu propia web con gh-pages
-
-
--Crea un repositorio
-
--Dale un nombre
-
--Puedes añadirle un .ReadMe
-
--Ve a Settings
-
--Pincha en Launch automatic page generator
-
--En Body, puedes cambiar tu descripción
-
--OJO, no es HTML, tendrás que usar lenguaje Markdown (que es más fácil)
-(link a markdown)
-
--Selecciona una plantilla
-
--Luego podrás modificar tanto .html como .css
-
--Publica tu página en “Publish page”
-
-
-
-https://github.com/flowsta/github
 
